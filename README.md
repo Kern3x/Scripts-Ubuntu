@@ -10,5 +10,16 @@ This repository contains a shell script to install **Docker** and **Docker Compo
 
 1. **Save the script** to a file, for example:
 
-   ```bash```
-   install_docker.sh
+   ```install_docker.sh```
+
+2. **Save the script** to a file, for example:
+
+   ```chmod +x install_docker.sh```
+
+3. **Save the script** to a file, for example:
+
+   ```./install_docker.sh```
+
+⚠️ **Note**
+The Docker Compose version used in this script is designed for **x86_64** architecture.
+If you're using another architecture (e.g., **arm64**), you’ll need to update the download URL in the script accordingly.
